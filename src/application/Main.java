@@ -15,7 +15,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,200,200);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("My First JavaFX Application");
+			primaryStage.setTitle("JavaFX Login System");
 			primaryStage.show();
 			
 		} catch(Exception e) {
