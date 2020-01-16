@@ -33,7 +33,8 @@ public class Users {
 
 		String uN, pW;
 
-		for(int n = 0; s.hasNext(); n++) {
+		for(@SuppressWarnings("unused")
+		int n = 0; s.hasNext(); n++) {
 			String nextLine = s.nextLine();
 			String [] strs = nextLine.split(" ");
 
